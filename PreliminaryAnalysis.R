@@ -14,6 +14,7 @@ str(df)
 summary(df)
 
 # ------------------------ Plots ------------------------
+# Extract just the numeric variables
 num_df <- df[, c("T", "RH", "CO(GT)", "PT08.S1(CO)")]
 
 # Plot Histograms
